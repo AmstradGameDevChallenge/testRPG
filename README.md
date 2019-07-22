@@ -1,4 +1,4 @@
-# testRGP: testing BASIC and C in RPG
+# testRPG: testing BASIC and C in RPG
 
 Using the same template as main repository (BASICvsC-RPG).
 
