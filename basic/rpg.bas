@@ -1,13 +1,16 @@
-10 '  
-20 ' MY BIG RPG PROJECT
-30 ' by @FranGallegoBR
+10 '
+20 ' MY FIRST RPG PROJECT (TEST)
+30 ' by @jcanoca
 40 ' July 2019
 50 '
 
-100 ' INITIALIZE
-110 DEFINT a-z
-120 energy=100:attack=30:defense=15
-130 energyen=90:attacken=20:defenseen=10:a$=""
+100 ' INITIALIZE VARIABLES
+110 ' ALL VARIABLES MUST BE SIGNED INTEGERS
+120 DEFINT a-z
+130 ' PLAYER SKILLS
+140 energy=100:attack=30:defense=15
+150 ' ENEMY SKILLS
+160 energyen=90:attacken=20:defenseen=10:a$=""
 
 200 ' PRESENTATION
 210 MODE 1:PRINT"RPG GAME"
